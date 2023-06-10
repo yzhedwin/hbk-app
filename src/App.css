@@ -23,6 +23,53 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.app-bar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.app-header {
+  display: flex;
+  flex-direction: column;
+  position: block;
+  background-color: rgb(170, 55, 55);
+  color: black;
+  top: 0;
+  width: 100%;
+  height: 30vh;
+}
+.header-row-1 {
+  display:flex;
+  flex: 1;
+  margin-top: 10px;
+  justify-content: space-between;
+}
+.header-title {
+  font-size: x-large;
+  color: white;
+  margin-left:10px;
+}
+.checkout-btn {
+
+}
+.header-row-2 {
+  display:flex;
+  flex: 4;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid black;
+}
+
+.menu-tabs {
+  display:flex;
+  height: 5vh;
+  justify-content: center;
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+.menu-food-container {
+  margin: 10px;
+}
 
 .App-link {
   color: #61dafb;
