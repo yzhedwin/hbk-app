@@ -1,0 +1,39 @@
+.cart-popover {
+  .MuiPopover-paper {
+    height: 70vh;
+    width: 40vh;
+  }
+}
+.cart-container {
+    display:flex;
+    flex-direction: column;
+    height: 100%;
+    
+    .header {
+        background-color: green;
+        height:5vh;
+    }
+
+    .order-list {
+        background-color: grey;
+        flex:1;
+        height: 20vh;
+    }
+}
+.cart-item-container {
+    display:flex;
+}
+.cart-item-image {
+    border-radius: 8px;
+}
+.cart-item-details {
+    display:flex;
+    flex-direction: column;
+    margin-left:10px;
+}
+.cart-pay-btn {
+    position: absolute;
+    bottom:0;
+    right:0;
+    background-color: red;
+}

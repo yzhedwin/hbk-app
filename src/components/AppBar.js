@@ -7,7 +7,7 @@ import HomeIcon from "@mui/icons-material/Home";
 import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 
 export default function BottomNav(props) {
-  const [value, setValue] = React.useState(0);
+  const [value, setValue] = React.useState("Home");
 
   return (
     <Box className="app-bar">

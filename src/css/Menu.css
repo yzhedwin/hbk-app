@@ -1,0 +1,20 @@
+.menu-tabs {
+  display: flex;
+  height: fit-content;
+  justify-content: center;
+  background-color: white;
+}
+.menu-food-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+.menu-card-content {
+  display: flex;
+  flex-direction: column;
+}
+.menu-card-action {
+  display: flex;
+  justify-content: center;
+}
