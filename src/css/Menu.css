@@ -10,11 +10,3 @@
   flex-wrap: wrap;
   margin: 10px;
 }
-.menu-card-content {
-  display: flex;
-  flex-direction: column;
-}
-.menu-card-action {
-  display: flex;
-  justify-content: center;
-}
